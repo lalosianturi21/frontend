@@ -1,0 +1,71 @@
+.card-img-top {
+  max-width: 200px; /* ukuran gambar maksimum */
+  max-height: 200px;
+  display: block; /* agar gambar muncul sebagai blok */
+  margin: 0 auto; /* mengatur margin kiri dan kanan ke auto agar gambar berada di tengah */
+  border-radius: 20px;
+
+}
+
+
+
+
+.form-outline {
+  position: relative;
+}
+
+.form-input {
+  font-size: 18px;
+  padding: 10px 1px 5px 0px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.form-input:focus {
+  border-bottom: 2px solid #2196f3;
+}
+
+.form-outline .form-line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #2196f3;
+  transition: all 0.3s ease-in-out;
+}
+
+.form-input:focus ~ .form-line {
+  width: 100%;
+}
+
+.card-text {
+  font-size: 10px;
+}
+
+.cardimage {
+  height: 400px;
+}
+
+#page-numbers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#page-numbers span {
+  margin: 0 10px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background: black;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+#page-numbers span.active {
+  background-color: #ccc;
+}

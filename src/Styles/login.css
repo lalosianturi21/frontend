@@ -1,0 +1,163 @@
+
+ body{
+  background: linear-gradient(to right, white 50%, #FFE5F1 50%);
+ }
+
+.gradient-custom-2 {
+    /* fallback for old browsers */
+background: #f2789f;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+background: #f2789f;
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #f2789f;
+    }
+    
+@media (min-width: 768px) {
+.gradient-form {
+height: 100vh !important;
+    }
+}
+@media (min-width: 769px) {
+.gradient-custom-2 {
+border-top-right-radius: .3rem;
+border-bottom-right-radius: .3rem;
+    }
+}
+
+
+
+.textjudul {
+    color: black;
+}
+
+.textlogin {
+  color: black;
+  font-weight: bold;
+
+  font-size: 18px;
+}
+
+.form-outline {
+  position: relative;
+}
+
+.form-input {
+  font-size: 18px;
+  padding: 10px 1px 5px 0px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.form-input:focus {
+  border-bottom: 2px solid #2196f3;
+}
+
+.form-outline .form-line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #2196f3;
+  transition: all 0.3s ease-in-out;
+}
+
+.form-input:focus ~ .form-line {
+  width: 100%;
+}
+
+.form-outline .form-error {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  font-size: 14px;
+  color: red;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.form-input:focus ~ .form-error {
+  opacity: 1;
+  top: calc(100% + 5px);
+}
+
+
+  .btn-outline-danger {
+  color: white;
+  background-color: transparent;
+  border-color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-outline-danger:hover {
+  color: #fff;
+  background-color: #c5a57e;
+  border-color: #dc3545;
+  transition: all 0.3s ease-in-out;
+}
+
+.google-color {
+  color: #DB4437; /* warna merah Google */
+}
+
+
+.cardanimation {
+  position: relative; /* Mengubah posisi elemen menjadi relatif */
+  /* animation-name: slideRight; Nama animasi */
+  animation-duration: 3s; /* Durasi animasi */
+  animation-direction: alternate; /* Arah animasi secara bergantian */
+  animation-iteration-count: infinite; /* Mengulang animasi secara terus-menerus */
+  color: black;
+}
+
+
+.login-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.login-button:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-button img {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+
+@keyframes slideRight {
+  from {
+    left: -50px; /* Mengatur posisi awal animasi */
+  }
+  to {
+    left: 50px; /* Mengatur posisi akhir animasi */
+  }
+  
+}
+
+
+
+
+
+
+
+  
+
+
+    
